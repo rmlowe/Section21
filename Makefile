@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ StatelessLambda - Debug ]----------"
-	@cd "StatelessLambda" && "$(MAKE)" -f  "StatelessLambda.mk"
+	@echo "----------Building project:[ StatefulLambdas - Debug ]----------"
+	@cd "StatefulLambdas" && "$(MAKE)" -f  "StatefulLambdas.mk"
 clean:
-	@echo "----------Cleaning project:[ StatelessLambda - Debug ]----------"
-	@cd "StatelessLambda" && "$(MAKE)" -f  "StatelessLambda.mk" clean
+	@echo "----------Cleaning project:[ StatefulLambdas - Debug ]----------"
+	@cd "StatefulLambdas" && "$(MAKE)" -f  "StatefulLambdas.mk" clean
