@@ -2,19 +2,22 @@
 <CodeLite_Workspace Name="Section21" Database="" Version="10000">
   <Project Name="FunctionObjects" Path="FunctionObjects/FunctionObjects.project" Active="No"/>
   <Project Name="StatelessLambda" Path="StatelessLambda/StatelessLambda.project" Active="No"/>
-  <Project Name="StatefulLambdas" Path="StatefulLambdas/StatefulLambdas.project" Active="Yes"/>
+  <Project Name="StatefulLambdas" Path="StatefulLambdas/StatefulLambdas.project" Active="No"/>
+  <Project Name="STL_Lambdas" Path="STL_Lambdas/STL_Lambdas.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="FunctionObjects" ConfigName="Debug"/>
       <Project Name="StatelessLambda" ConfigName="Debug"/>
       <Project Name="StatefulLambdas" ConfigName="Debug"/>
+      <Project Name="STL_Lambdas" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="FunctionObjects" ConfigName="Release"/>
       <Project Name="StatelessLambda" ConfigName="Release"/>
       <Project Name="StatefulLambdas" ConfigName="Release"/>
+      <Project Name="STL_Lambdas" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
